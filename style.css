@@ -27,7 +27,7 @@
 
     to {
         opacity: 1;
-        left: 15%;
+        left: 13%;
     }
 }
 
@@ -137,7 +137,7 @@ img {
 
 .bem {
     position: absolute;
-    left: 15%;
+    left: 13%;
     top: -25%;
     display: none;
 }
@@ -165,8 +165,13 @@ img {
 @media screen and (max-width: 460px){
     .cadastro{
         height: 70vh;
+        width: 90vw;
         overflow-y: hidden;
         overflow-x: hidden;
+    }
+
+    .btn, .inputs {
+        width: 80vw;
     }
 
 }
