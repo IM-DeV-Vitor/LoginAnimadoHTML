@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* Entrada */
+
 @keyframes animacaoEntrada {
     to {
         top: 10%;
@@ -27,7 +29,7 @@
 
     to {
         opacity: 1;
-        right: 655;
+        right: 65%;
     }
 }
 
@@ -40,6 +42,52 @@
     to {
         opacity: 1;
         left: 65%;
+    }
+}
+
+/* Saída */
+
+@keyframes animacaoSaida {
+    to {
+        top: 50%;
+    }
+
+    from {
+        top: 10%;
+    }
+}
+
+@keyframes animacaoFormSaida {
+    from {
+            opacity: 1;
+    }
+    to {
+            opacity: 0;
+    }
+    
+}
+
+@keyframes animacaoBemSaida {
+    from {
+        opacity: 1;
+        right: 65%;
+    }
+
+    to {
+        opacity: 0;
+        right: 95%;
+    }
+}
+
+@keyframes animacaoVindoSaida {
+    from {
+        opacity: 1;
+        left: 65%;
+    }
+
+    to {
+        opacity: 0;
+        left: 95%;
     }
 }
 
@@ -70,6 +118,7 @@ body {
     height: 60vh;
     width: 360px;
     border-radius: 20px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.304);
     text-align: center;
 }
 
@@ -132,8 +181,16 @@ img {
     animation: animacaoEntrada 0.8s ease-in-out forwards;
 }
 
+.animadoSaida {
+    animation: animacaoSaida 0.8s ease-in-out forwards;
+}
+
 .animacaoForm {
     animation: animacaoForm 1.5s ease-in-out forwards;
+}
+
+.animacaoFormSaida {
+    animation: animacaoFormSaida 1.5s ease-in-out forwards;
 }
 
 .bem {
@@ -161,6 +218,15 @@ img {
     animation: animacaoVindo 2s ease-in-out;
 }
 
+.bemAnimadoSaida {
+    display: block;
+    animation: animacaoBemSaida 2s ease-in-out forwards;
+}
+
+.vindoAnimadoSaida {
+    display: block;
+    animation: animacaoVindoSaida 2s ease-in-out forwards;
+}
 
 
 @media screen and (max-width: 600px){
