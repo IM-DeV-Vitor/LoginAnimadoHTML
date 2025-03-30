@@ -4,19 +4,19 @@ function clickNaImagem(){
     let textoBem = document.getElementById("bem")
     let textoVindo = document.getElementById("vindo")
     if (window.getComputedStyle(infos).display == "none") {
-        imagemAnimada.classList.remove("animadoSaida")
-        
-        setTimeout(() => {
-          textoBem.classList.remove("bemAnimadoSaida")
-          textoVindo.classList.remove("vindoAnimadoSaida")
-        }, 1000)
+      imagemAnimada.classList.remove("animadoSaida")
 
-        imagemAnimada.classList.add("animado")
+      setTimeout(() => {
+        textoBem.classList.remove("bemAnimadoSaida")
+        textoVindo.classList.remove("vindoAnimadoSaida")
+      }, 1000)
 
-        infos.style.display = "block"
-        infos.classList.add("animacaoForm")
-        setTimeout(() =>       
-        {
+      imagemAnimada.classList.add("animado")
+
+      infos.style.display = "block"
+      infos.classList.add("animacaoForm")
+      setTimeout(() =>       
+      {
         textoBem.classList.add("bemAnimado")
         textoVindo.classList.add("vindoAnimado")
       }, 1000)
