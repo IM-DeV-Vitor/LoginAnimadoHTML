@@ -115,7 +115,8 @@ img {
     width: 70px;
     height: 70px;
     pointer-events: none;
-    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
 }
 
 .imagem {
