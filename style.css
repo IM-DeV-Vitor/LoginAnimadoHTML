@@ -166,7 +166,7 @@ img {
     .cadastro{
         height: 70vh;
         width: 80vw;
-        min-width: 360px;
+        min-width: 340px;
         overflow-y: hidden;
         overflow-x: hidden;
     }
