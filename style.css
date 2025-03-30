@@ -100,6 +100,7 @@ h1 {
     border-radius: 8px;
     cursor: pointer;
     transition-duration: 0.5s;
+    -webkit-tap-highlight-color: rgb(72, 72, 138);
 }
 
 .btn:hover {
@@ -126,6 +127,7 @@ img {
     cursor: pointer;
     transition-duration: 0.5s;
     justify-content: space-between;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .animado {
