@@ -160,7 +160,9 @@ img {
     animation: animacaoVindo 2s ease-in-out;
 }
 
-@media screen and (max-width: 400px){
+
+
+@media screen and (max-width: 460px){
     .cadastro{
         height: 70vh;
     }
