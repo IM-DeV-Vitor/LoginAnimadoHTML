@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="cadastro">
+        <div class="imagem" id="imgCode" onclick="clickNaImagem()">
+            <h1 class="bem" id="bem">Bem</h1>
+            <img src="assets/code-img.png" alt="ImagemCodigo">
+            <h1 class="vindo" id="vindo">Vindo</h1>
+        </div>
+        <div class="infos" id="infos">
+            <h1>Cadastre-se</h1>
+            <div>
+            <input type="text" name="nome" id="nome" class="inputs" required placeholder="Nome"/>
+            <input type="text" name="email" id="email" class="inputs" required placeholder="Email"/>
+            </div>
+            <button onclick="enviarDados()" class="btn">Enviar</button>
+        </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
