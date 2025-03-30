@@ -67,10 +67,10 @@ body {
     transform: translate(-50%, -50%);
     background-color: white;
     height: 60vh;
-    width: 30vw;
+    width: 360px;
+
     border-radius: 20px;
     text-align: center;
-    min-width: 360px;
 }
 
 .inputs {
@@ -84,7 +84,7 @@ body {
     margin-top: 30px;
     border: 1px solid rgb(86, 86, 169);
     border-radius: 15px;
-    width: 350px;
+    width: 300px;
 }
 
 h1 {
@@ -97,7 +97,7 @@ h1 {
     background-color: rgb(86, 86, 169);
     border: none;
     padding: 10px 30px;
-    width: 350px;
+    width: 300px;
     border-radius: 8px;
     cursor: pointer;
     transition-duration: 0.5s;
@@ -165,14 +165,8 @@ img {
 @media screen and (max-width: 460px){
     .cadastro{
         height: 70vh;
-    }
-
-    .inputs {
-        margin-top: 50px;
-    }
-
-    .btn {
-        margin-top: 50px;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
 }
